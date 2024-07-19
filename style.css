@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url("netflixbackground.jpg");
+    background-size: cover;
+}
+.topsection{
+    background-color:rgba(0,0,0,0.3);
+    
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+}
+.nav{
+    
+    height: 115px;
+    gap: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav img{
+    height: 67px;
+}
+.navright{
+    
+    word-spacing: 25px;
+}
+.navright select{
+    color: white;
+    background: none;
+    height: 45px;
+    width: 180px;
+    border-radius: 9px;
+    font-size: 20px;
+    padding-left: 45px;
+    border: 2px solid white;
+}
+.hindi{
+    color: black;
+    border: none;
+    
+}
+.navright button{
+    border: none;
+    height: 45px;
+    width: 100px;
+    border-radius: 9px;
+    background-color: #e50914;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+}
+.middle{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    gap: 30px;
+    font-family: sans-serif;
+    margin-top: -50px;
+    
+}
+.middle h1{
+    font-size: 65px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.middle p{
+    font-size: 30px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+.emailbutton{
+    word-spacing: 9px;
+}
+.emailbutton input{
+    height: 70px;
+    width: 450px;
+    border: none;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 20px;
+    padding-left: 30px;
+    color: white;
+}
+.emailbutton input::placeholder{
+    color: white;
+}
+.emailbutton button{
+    height: 70px;
+    width: 210px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #e50914;
+    font-size: 25px;
+}
+
+.gap{
+    background-color: #232323;
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main2{
+    height: 750px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.img2 .img{
+    background-image: url("tvback.png");
+    height: 480px;
+    width: 640px;
+    margin-left: -370px;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 800px;
+    gap: 15px;
+    padding-left: 230px;
+}
+.text2 h1{
+    font-family: sans-serif;
+    font-size: 70px;
+    width: 600px;
+    
+}
+.text2 p{
+    font-size: 30px;
+    width: 800px;
+    
+    letter-spacing: 2px;
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+   
+    gap: 20px;
+    font-family: sans-serif;
+}
+.text3 h1{
+    font-family: sans-serif;
+    font-size: 57px;
+    width: 700px;
+ 
+    
+}
+.text3 p{
+    font-size: 30px;
+    width: 800px;
+    letter-spacing: 2px;
+}
+.img3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.img3 img{
+    background-color: red;
+    height: 500px;
+    margin-left: 00px;
+}
+.main2{
+    height: 750px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    
+}
+
+/* .img4 .img{
+    background-image: url("tvback.png");
+    height: 280px;
+    width: 440px;
+    margin-left: -370px;
+} */
+
+.text4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 800px;
+    gap: 15px;
+    padding-left: 230px;
+}
+.text4 h1{
+    font-family: sans-serif;
+    font-size: 70px;
+    width: 650px;
+    
+}
+.text4 p{
+    font-size: 30px;
+    width: 800px;
+    letter-spacing: 2px;
+}
+.last{
+    height: 1250px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.box{
+    height: 720px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+}
+.boxs{
+    height: 130px;
+    width: 75vw;
+    background-color: #2d2d2d;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.emailbutton2{
+    word-spacing: 9px;
+}
+.emailbutton2 input{
+    height: 70px;
+    width: 450px;
+    border: none;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    border: 2px solid white;
+    font-size: 20px;
+    padding-left: 30px;
+    color: white;
+}
+.emailbutton2 input::placeholder{
+    color: white;
+}
+.emailbutton2 button{
+    height: 70px;
+    width: 210px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #e50914;
+    font-size: 25px;
+}
+.boxs i{
+    font-size: 40px;
+}
+.box .boxs p{
+    font-size: 36px;
+}
+.boxs:hover{
+    transition: ease-in 0.1s;
+    background-color: #424242;
+}
+.lasttext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 80px;
+}
+.last p{
+    font-family: sans-serif;
+    font-size: 70px;
+}
+.last h5{
+    font-family: sans-serif;
+    font-size: 30px;
+}
+footer{
+    height: 530px;
+    width: 100%;
+    background-color: black;
+    color: #9da4a6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 20px;  
+}
+.fbox p{
+    font-size: 20px;
+}
+.box1{
+    width: 100%;
+    height: 200px;
+   
+    display: flex;
+    line-height: 30px;
+}
+.boxs1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 900px;
+   
+    list-style: none;
+}
+.boxs1 li{
+   
+    cursor: pointer;
+}
+.fbox p u{
+    cursor: pointer;
+}
+.fbox{
+    height: 70% ;
+    width: 77vw;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.fbox select{
+    color: white;
+    background-color: #0f0f0f;
+    height: 45px;
+    width: 180px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 45px;
+    border: 2px solid white;
+}
